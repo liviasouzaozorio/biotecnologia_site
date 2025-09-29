@@ -9,7 +9,7 @@
     }
 
     /* Conteúdo sobreposto ao vídeo */
-    .content {
+.content {
       position: relative;
       z-index: 1;
       color: white;
@@ -17,9 +17,17 @@
       top: 40%;
       font-family: sans-serif;
     }
-    .container-fluid{
-         background-color: rgb(152, 178, 201);
+.container-fluid{
+         background-color: rgb(240, 248, 255);
+         border-bottom: 2vh;
+         border-color: rgb(80, 118, 223);
          padding: 10px;
          font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
          box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
         }
+.card-header{
+  background-color: rgb(152, 176, 197);
+}
+.navbarNav{
+  align-content: center;
+}
